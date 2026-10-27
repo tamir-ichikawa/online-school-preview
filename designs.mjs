@@ -3,10 +3,10 @@ export const designs=[
     "id": "studio",
     "name": "スタジオ型",
     "label": "STUDIO / LEARN & CREATE",
-    "status": "第3案・展開版",
+    "status": "スタジオ型",
     "updated": "2026.10.27",
     "image": "images/studio-v2-preview.jpg",
-    "description": "深緑と淡いイエローの第3案を、公開サイト・受講画面・本部・代理店・講師へ展開。詳細は個別ページへ進み、入力の確認は同じ画面内で行えます。",
+    "description": "深緑と淡いイエロー。人と制作を主役にした、のびやかな構成。",
     "features": [
       "公開サイト・創設者の漫画",
       "受講画面",
@@ -21,10 +21,6 @@ export const designs=[
       {
         "label": "管理画面まとめ",
         "url": "studio-v2/review.html"
-      },
-      {
-        "label": "保存した初稿",
-        "url": "studio-v1/index.html"
       }
     ]
   },
@@ -32,10 +28,10 @@ export const designs=[
     "id": "school",
     "name": "スクール型",
     "label": "SCHOOL / ONLINE LEARNING",
-    "status": "基準の確認版",
+    "status": "スクール型",
     "updated": "2026.10.27",
     "image": "images/school-preview.jpg",
-    "description": "写真と明快なナビゲーションで、学びの入口を整理。創設者の漫画、受講画面、役割ごとの管理画面まで確認できます。",
+    "description": "写真と明快なナビゲーション。安心感と、選びやすさを大切に。",
     "features": [
       "創設者の漫画",
       "受講画面",
@@ -49,7 +45,7 @@ export const designs=[
     "id": "sky-blue",
     "name": "スカイブルー",
     "label": "SKY BLUE / ONLINE SCHOOL",
-    "status": "保存した案",
+    "status": "スカイブルー",
     "updated": "2026.10.27",
     "image": "images/sky-blue-preview.jpg",
     "description": "白とスカイブルーを基調に、やわらかな人物イラストと図解で伝えるデザイン。",

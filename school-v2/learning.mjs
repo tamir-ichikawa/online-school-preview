@@ -3,7 +3,7 @@ let trigger;
 document.querySelectorAll('[data-learning-preview]').forEach(form=>form.addEventListener('submit',event=>{
  event.preventDefault();
  const data=new FormData(form);
- document.querySelector('#preview-title').textContent=form.dataset.learningPreview+'のプレビュー';
+ document.querySelector('#preview-title').textContent=form.dataset.learningPreview+'の確認';
  document.querySelector('#preview-output').textContent=[data.get('kind'),data.get('subject'),data.get('message')].filter(Boolean).join('\n\n');
  trigger=event.submitter;dialog.showModal();
 }));

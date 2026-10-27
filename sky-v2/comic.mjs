@@ -70,7 +70,7 @@ export function comicPage({url,crumbs,arrow}) {
           <figcaption class="manga-bubble mentoring-bubble">いつか、学んだ人が<br>教える側になることも。</figcaption>
         </figure>
       </div>
-      <p class="manga-learning-note">一人の成長が、<br class="manga-narrow-break">次の誰かの可能性へ。<br>このスクールで、<br class="manga-narrow-break">そんな循環をつくりたい。</p>
+
     </section>
 
     <div class="manga-dream-intro"><p>例えば、<br>こんな小さな喜びが<br class="manga-narrow-break">あったら。</p><small>ここからは、原文に描かれた「こんな日常を」という願いの場面です。</small></div>
@@ -94,8 +94,8 @@ export function comicPage({url,crumbs,arrow}) {
       <div class="manga-final-words"><p>何かを大切にするために、<br>自分の可能性まで諦めなくていい。</p><p>そんな選択肢を、<br class="manga-narrow-break">一つでも増やしたい。</p><p>このスクールは、<br>そんな想いから生まれました。</p><h2>日常に、口笛を。</h2><p class="manga-mission">自分の中に、確かな軸を。</p></div>
     </section>
   </article>
-  <section class="manga-afterword container"><p>漫画は、提供原文をもとに文章を短く再構成したものです。<br>後半の学びや暮らしは、目指す未来のイメージとして描いています。</p><div class="actions"><a class="button" href="${url('courses.html')}">学べる内容を見る ${arrow}</a><a class="text-link" href="${url('index.html')}">トップに戻る ${arrow}</a></div></section>
-  <section id="story-original" class="container original-section"><details class="original-details"><summary>創設者ストーリーの原文を読む<span aria-hidden="true">＋</span></summary><p class="small muted original-note">以下は、提供された原文の全文です。語り手の氏名・肩書きは未確認です。</p><article class="original-copy" aria-label="創設者ストーリーの提供原文全文">${originalHtml}</article></details></section>
+  <section class="manga-afterword container"><p><br>後半の学びや暮らしは、目指す未来のイメージとして描いています。</p><div class="actions"><a class="button" href="${url('courses.html')}">学べる内容を見る ${arrow}</a><a class="text-link" href="${url('index.html')}">トップに戻る ${arrow}</a></div></section>
+  <section id="story-original" class="container original-section"><details class="original-details"><summary>創設者ストーリーの原文を読む<span aria-hidden="true">＋</span></summary><article class="original-copy" aria-label="創設者ストーリーの提供原文全文">${originalHtml}</article></details><a class="text-link" href="../index.html">既存の原文ページを開く ${arrow}</a></section>
   </main>`;
 }
 

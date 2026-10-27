@@ -23,7 +23,7 @@ export const campusRoutes = [
 ];
 export const ticketFixtures = [
   {id:'question',title:'試した内容を、どう振り返ればよいですか？',kind:'教材の質問',status:'本人返答待ち',actor:'あなた',body:'教材を見ながら試してみました。次に何を振り返ればよいか相談したいです。',reply:'まずは、試したことと気づいたことを分けて書いてみましょう。どこで迷ったかも、一緒に教えてください。',lesson:'2'},
-  {id:'technical',title:'動画の再生が止まるときの確認',kind:'再生・操作の不具合',status:'受付・担当確認中',actor:'本部',body:'サンプル動画の再生について、確認したいことがあります。',reply:'',lesson:'2'},
+  {id:'technical',title:'動画の再生が止まるときの確認',kind:'再生・操作の不具合',status:'受付・担当確認中',actor:'本部',body:'動画の再生について、確認したいことがあります。',reply:'',lesson:'2'},
   {id:'resolved',title:'教材一覧への戻り方',kind:'操作方法',status:'解決',actor:'対応は完了しています',body:'教材一覧を開く場所を確認したいです。',reply:'「教材と動画」から一覧を開けます。同じ件をもう一度相談したいときは、この案件を再開できます。',lesson:'1'},
 ];
 export const faqItems = [

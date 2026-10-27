@@ -3,24 +3,28 @@ export const designs=[
     "id": "studio",
     "name": "スタジオ型",
     "label": "STUDIO / LEARN & CREATE",
-    "status": "第3案・比較用",
+    "status": "第3案・展開版",
     "updated": "2026.10.27",
-    "image": "images/studio-preview.jpg",
-    "description": "人物で挟む導入から、制作イメージ、講座、学ぶ流れへ。構成と構図を変えた、深緑と淡いイエローの1ページ案。",
+    "image": "images/studio-v2-preview.jpg",
+    "description": "深緑と淡いイエローの第3案を、公開サイト・受講画面・本部・代理店・講師へ展開。詳細は個別ページへ進み、入力の確認は同じ画面内で行えます。",
     "features": [
-      "人物で挟む導入",
-      "制作イメージを先に",
-      "1ページの比較案"
+      "公開サイト・創設者の漫画",
+      "受講画面",
+      "本部・代理店・講師"
     ],
-    "url": "studio-v1/index.html",
+    "url": "studio-v2/index.html",
     "links": [
       {
-        "label": "講座の見せ方",
-        "url": "studio-v1/index.html#course"
+        "label": "受講画面",
+        "url": "studio-v2/learn.html"
       },
       {
-        "label": "学ぶ流れ",
-        "url": "studio-v1/index.html#flow"
+        "label": "管理画面まとめ",
+        "url": "studio-v2/review.html"
+      },
+      {
+        "label": "保存した初稿",
+        "url": "studio-v1/index.html"
       }
     ]
   },

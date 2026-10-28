@@ -1,5 +1,32 @@
 export const designs=[
   {
+    "id": "play",
+    "name": "PLAY / 好きが、動きだす。",
+    "label": "PLAY / A LITTLE CURIOSITY.",
+    "image": "images/play-v2-preview.png",
+    "description": "画面いっぱいの工房とアトリエ。31人の、それぞれの時間。",
+    "features": [
+      "イラストのような立体空間",
+      "人ごとに異なる活動",
+      "場面に近づくアニメーション"
+    ],
+    "url": "play-v2/index.html",
+    "links": [
+      {
+        "label": "街の全景",
+        "url": "play-v2/world.html"
+      },
+      {
+        "label": "小さな島",
+        "url": "play-v2/island.html"
+      },
+      {
+        "label": "保存した初稿",
+        "url": "play-v1/index.html"
+      }
+    ]
+  },
+  {
     "id": "studio",
     "name": "スタジオ型",
     "label": "STUDIO / LEARN & CREATE",
